@@ -1,4 +1,47 @@
-# Getting Started with Create React App
+# Simple Task Tracker App
+
+## Table of contents
+
+- [Overview](#overview)
+  - [ScreenShot](#screenShot)
+
+- [My process](#my-process)
+  - [Built with](#built-with)
+
+- [Author](#author)  
+
+- [Getting Started With React](#getting-started-with-react)
+
+## Overview
+This is a simple Task Tracker App Built With React Js library , and example for usage of [Context Api](https://reactjs.org/docs/context.html) in React.
+
+Your Tasks will be ordered by time whatever the order you entered by.
+
+### ScreenShot
+#### Desktop Design
+![](./screenshots/Basic.png)
+
+![](./screenshots/Complete.png)
+
+![](./screenshots/Validation1.png)
+
+![](./screenshots/Validation2.png)
+
+#### Mobile Design
+![](./screenshots/Phone.png)
+
+## My Process
+### Built With
+- React JS with functional components.
+- CSS 
+- Fonts : [Inter](https://fonts.google.com/specimen/Inter)
+
+## Author
+- LinkedIn - [Alaa Ballout](https://www.linkedin.com/in/alaa-ballout/)
+- Gmail    - [Contact Us](mailto:alaaballoutdev@gmail.com)
+
+
+## Getting Started With React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

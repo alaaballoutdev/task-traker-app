@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-
+import AddTask from './Components/AddTask';
+import Header from './Components/Header';
+import TaskList from './Components/TaskList';
+import { GlobalProvider } from './Context/GlobalState';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <GlobalProvider>
+    <Header/>
+    <div className='container'>
+    <TaskList/>
+    <hr className="h-divider"/>
+    <AddTask/>
     </div>
+    </GlobalProvider>
   );
 }
 
