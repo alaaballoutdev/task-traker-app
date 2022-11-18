@@ -11,7 +11,7 @@ const TaskList = () => {
       <p>{tasks.length===0?"Here we go, there is no new tasks for today!!":""}</p>
       <ul>
         {tasks.map(task=> <Task Task={task} key={task.id}/>)}
-   
+        
         
       </ul>
     </>

@@ -3,19 +3,20 @@
   --task-item-height:50px;
   --task-item-width:275px;
   --input-width:250px;
+  --primary-color:rgb(29,94,233);
 }
 
 
 body{
   margin: 0px;
   padding: 0px;
-  color:darkslategray;
+  
   font-family: 'Inter',sans-serif;
 }
 
 .header{
   text-align: center;
-  background-color: darkslategrey;
+  background-color: var(--primary-color);
   color:white;
   width:100%;
   font-weight: 400;
@@ -38,6 +39,9 @@ body{
   text-align: left;
   position: relative;
   margin-bottom: 20px; 
+  cursor:grab;
+  
+ 
 }
 
 li{
@@ -51,7 +55,7 @@ ul{
 }
 
 .right-decoration{
-  border-right: 5px solid darkslategray;
+  border-right: 5px solid var(--primary-color);
 }
 
 .text{
@@ -93,7 +97,7 @@ ul li:hover .delete-btn {
 }
 
 .btn{
-  background-color: darkslategray;
+  background-color: var(--primary-color);
   color: white;
   border:0;
   padding: 7px;
@@ -103,7 +107,7 @@ ul li:hover .delete-btn {
 
 }
 .btn:hover{
-  background-color: #2A4A4A;
+  background-color: #0000ff;
 
 }
 .input-control{
@@ -111,10 +115,17 @@ ul li:hover .delete-btn {
   width: var(--input-width);
   margin-bottom: 5px;
   height: 20px;
-  border-radius: 5px;
+
   padding: 15px;
-  border: 1px solid black;
+  border: none;
+  border-bottom: 0.1px solid black;
   box-sizing: border-box;
+}
+input[type='time']:focus,input[type='text']:focus{
+  border: none;
+  outline: none;
+  border-bottom:2px solid #0000ff;
+  transition: border-color 0.2s ease;
 }
 .form-center{
   justify-content: center;

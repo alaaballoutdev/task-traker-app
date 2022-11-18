@@ -15,7 +15,7 @@
 ## Overview
 This is a simple Task Tracker App Built With React JS library , and example for usage of [Context API](https://reactjs.org/docs/context.html) in React.
 
-Your Tasks will be ordered by time whatever the order you entered by.
+Your Tasks will be ordered by time whatever the order you entered by. Also you can delete task by swiping to the right.
 
 ### ScreenShot
 #### Desktop Design
@@ -33,6 +33,7 @@ Your Tasks will be ordered by time whatever the order you entered by.
 ## My Process
 ### Built With
 - React JS using Functional Components.
+- Libraries : [Framer motion](https://www.framer.com/motion/)
 - CSS 
 - Fonts : [Inter](https://fonts.google.com/specimen/Inter)
 
