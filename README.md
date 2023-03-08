@@ -32,7 +32,7 @@ Your Tasks will be ordered by time whatever the order you entered by. Also you c
 
 ## My Process
 ### Built With
-- React JS using Functional Components.
+- React JS
 - Libraries : [Framer motion](https://www.framer.com/motion/)
 - CSS 
 - Fonts : [Inter](https://fonts.google.com/specimen/Inter)
